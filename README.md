@@ -11,7 +11,7 @@ This project is a simple approach to creating an on-browser narrative with backg
 The overall experience is to accompany the sounds of musical tones to minimal visuals, to heighten the user's experience of each musical composition.
 
 ## Wireframes 
-![WireframeIntro](media/wireframes/wireframeintro.png)
+![WireframeIntro](https://github.com/VictorDoyle/NarrativePage1/blob/main/media/wireframes/wireframeintro.png?raw=true)
 
 ## Resources
 1. Space-22 Soundtrack

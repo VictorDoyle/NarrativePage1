@@ -1,0 +1,26 @@
+/* Base Styling */
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    background-color: black;
+}
+
+.mainContent {
+    font-family: "Montserrat";
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+	font-size: 80px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.mainIntroduction {
+    font-family: "Montserrat";
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
