@@ -1,0 +1,70 @@
+/* SECTION: CSS Style for all Chapter Pages Herein */
+/* Base Styling */
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+	background-color: #000;
+}
+
+/* SECTION: Animated Chapter Intro Titles */
+/* animated title background */
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 10px;
+}
+
+.chapter1Intro h1 {
+	background-image: url(https://media.giphy.com/media/xUOxeQkDWcfWGiTevu/source.gif);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.chapter2Intro h1 {
+	background-image: url(https://media.giphy.com/media/26mkhTKYBbyy8904g/source.gif);
+	background-size: 100px;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.chapter3Intro h1 {
+	background-image: url(https://media.giphy.com/media/xUOxeQkDWcfWGiTevu/source.gif);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+.chapter4Intro h1 {
+	background-image: url(https://media.giphy.com/media/xUPGcv5eervFUfR5g4/source.gif);
+	background-size: contain;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
