@@ -3,8 +3,15 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+/* base css for single page app no scroll */
+html {
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0;
+}
 body {
 	background-color: #000;
+	min-height: 100%;
 }
 
 /* SECTION: Animated Chapter Intro Titles */
@@ -73,12 +80,17 @@ body {
 /* SECTION: CHAPTER 1 */
 
 
+.container {
+	position: relative;
+}
+
 .container p {
 	font-family: "Montserrat";
 	color: #FFF;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-size: x-large;
 }
 
 .container h1 {
@@ -103,67 +115,73 @@ body {
 	padding-top:15px;
 }
 
-.container {
+.introductionImageChap1 img{
+	position: absolute;
+	z-index: 1;
+}
+
+#dialogueBoxes1 {
 	position: relative;
+	justify-content: center;
+	text-align: center;
+	padding: 1rem;
+	color: white;
+	background: linear-gradient(87deg, #000000, #000000, #700099, #d7004a, #4b001a, #000000);
+    background-size: 1200% 1200%;
+	top: 65vh;
+	height: 20vh;
+	padding-bottom: 30px;
+	z-index: 35;
+	background-color: black;
+	-webkit-animation: dialogueBorderGrad 32s ease infinite;
+    animation: dialogueBorderGrad 32s ease infinite;
 }
 
-#partOneColumn1 {
-	position: absolute;
-	left: 0%;
-	width: 0;
-	height: 100vh;
-	transition: 500ms width;
+@-webkit-keyframes dialogueBorderGrad {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes dialogueBorderGrad {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
 }
 
-/* astronaut image */
-#partOneColumn1 img {
-	padding-top: 150px;
-}
-
-#partOneColumn2 {
+#mainAstronaut {
 	visibility: hidden;
 	position: absolute;
-	left: 25%;
-	width: 0;
-	height: 100vh;
-	transition: 500ms width ease-in;
+	left: -20%;
+	height: 25%;
+	transition: 1000ms left ease-out;
+	z-index: 30;
+	margin-top: 350px;
 }
 
-/* commander image */
-#partOneColumn2 img {
-	padding-top: 150px;
+.selections {
+	width: 42px; 
+	height: 42px;
+	position: relative;
+	width: auto;
+	font-family: "Montserrat";
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 10px;
+	margin-top: 15px;
+	border: 0.1em solid rgba(255,255,255,.75);
+	border-radius: 0.12em;
+	text-decoration: none;
 }
 
-#partOneColumn3 {
-	visibility: hidden;
-	position: absolute;
-	left: 50%;
-	width: 0;
-	height: 100vh;
-	transition: 500ms width;
-}
-
-/* poetic AI image */
-#partOneColumn3 img {
-	padding-top: 150px;
-}
-
-#partOneColumn4 {
-	visibility: hidden;
-	position: absolute;
-	left: 75%;
-	width: 0;
-	height: 100vh;
-	transition: 500ms width;
-}
-
-/* Gargantua character image */
-#partOneColumn4 img {
-	padding-top: 150px;
+.selections:hover {
+	color:#000000;
+    background-color:#FFFFFF;
+    cursor: pointer;
 }
 
 
-
+      
 
 
 
