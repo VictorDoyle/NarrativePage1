@@ -72,6 +72,33 @@ body {
 
 /* SECTION: CHAPTER 1 */
 
+
+.container p {
+	font-family: "Montserrat";
+	color: #FFF;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container h1 {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 10px;
+}
+
+.characterIntroduction {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 .beginChapter1 {
 	padding-top:15px;
 }
@@ -81,7 +108,6 @@ body {
 }
 
 #partOneColumn1 {
-	background-color: chartreuse;
 	position: absolute;
 	left: 0%;
 	width: 0;
@@ -89,17 +115,27 @@ body {
 	transition: 500ms width;
 }
 
+/* astronaut image */
+#partOneColumn1 img {
+	padding-top: 150px;
+}
+
 #partOneColumn2 {
-	background-color: blue;
+	visibility: hidden;
 	position: absolute;
 	left: 25%;
 	width: 0;
 	height: 100vh;
-	transition: 500ms width;
+	transition: 500ms width ease-in;
+}
+
+/* commander image */
+#partOneColumn2 img {
+	padding-top: 150px;
 }
 
 #partOneColumn3 {
-	background-color: goldenrod;
+	visibility: hidden;
 	position: absolute;
 	left: 50%;
 	width: 0;
@@ -107,13 +143,23 @@ body {
 	transition: 500ms width;
 }
 
+/* poetic AI image */
+#partOneColumn3 img {
+	padding-top: 150px;
+}
+
 #partOneColumn4 {
-	background-color: red;
+	visibility: hidden;
 	position: absolute;
 	left: 75%;
 	width: 0;
 	height: 100vh;
 	transition: 500ms width;
+}
+
+/* Gargantua character image */
+#partOneColumn4 img {
+	padding-top: 150px;
 }
 
 
