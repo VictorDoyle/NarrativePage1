@@ -14,7 +14,9 @@ body {
     text-transform: uppercase;
 	font-size: 80px;
 	line-height: .95;
-	margin: 10px 0;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .mainIntroduction {
@@ -26,8 +28,10 @@ body {
     padding-bottom: 30px;
 }
 
+/*  CHAPTER SELECTION  */
 .row {
     display: flex;
+    padding-top: 15px; /* NOTE: only add padding on large desktop scr sizes */
   }
   
 .chapter-card  {

@@ -46,8 +46,8 @@ body {
 }
 
 .chapter3Intro h1 {
-	background-image: url(https://media.giphy.com/media/xUOxeQkDWcfWGiTevu/source.gif);
-	background-size: cover;
+	background-image: url(https://media.giphy.com/media/7E02rSL3X31b6y2FR1/source.gif);
+	background-size: contain;
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -68,3 +68,62 @@ body {
 	line-height: .75;
 	margin: 10px 0;
 }
+
+
+/* SECTION: CHAPTER 1 */
+
+.beginChapter1 {
+	padding-top:15px;
+}
+
+.container {
+	position: relative;
+}
+
+#partOneColumn1 {
+	background-color: chartreuse;
+	position: absolute;
+	left: 0%;
+	width: 0;
+	height: 100vh;
+	transition: 500ms width;
+}
+
+#partOneColumn2 {
+	background-color: blue;
+	position: absolute;
+	left: 25%;
+	width: 0;
+	height: 100vh;
+	transition: 500ms width;
+}
+
+#partOneColumn3 {
+	background-color: goldenrod;
+	position: absolute;
+	left: 50%;
+	width: 0;
+	height: 100vh;
+	transition: 500ms width;
+}
+
+#partOneColumn4 {
+	background-color: red;
+	position: absolute;
+	left: 75%;
+	width: 0;
+	height: 100vh;
+	transition: 500ms width;
+}
+
+
+
+
+
+
+
+/* SECTION: CHAPTER 2 */
+
+/* SECTION: CHAPTER 3 */
+
+/* SECTION: CHAPTER 4 */
