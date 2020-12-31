@@ -162,44 +162,34 @@ body {
 /* when he meets alien life */
 /* https://media.giphy.com/media/l0HlFvS7J0rhUFIqI/source.gif */
 
+/* red scanner effect in full background after meeting alien */
 
+/* .css-selector {
+    background: linear-gradient(89deg, #000000, #000000, #bf1010, #000000);
+    background-size: 800% 800%;
 
-
-
-
-
-
-
-/* FIXME: later use */
-/* #dialogueBoxes1 {
-	position: relative;
-	justify-content: center;
-	text-align: center;
-	padding: 1rem;
-	color: white;
-	background: linear-gradient(87deg, #000000, #000000, #700099, #d7004a, #4b001a, #000000);
-    background-size: 1200% 1200%;
-	top: 65vh;
-	height: 20vh;
-	padding-bottom: 30px;
-	z-index: 35;
-	background-color: black;
-	-webkit-animation: dialogueBorderGrad 32s ease infinite;
-    animation: dialogueBorderGrad 32s ease infinite;
-} */
-
-/* @-webkit-keyframes dialogueBorderGrad {
-    0%{background-position:0% 52%}
-    50%{background-position:100% 49%}
-    100%{background-position:0% 52%}
+    -webkit-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
 }
-@keyframes dialogueBorderGrad {
-    0%{background-position:0% 52%}
-    50%{background-position:100% 49%}
-    100%{background-position:0% 52%}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 } */
 
-/* FIXME: Above dialogue box moving gradient */
+
+
+
+
+
+
+
 
 
 
