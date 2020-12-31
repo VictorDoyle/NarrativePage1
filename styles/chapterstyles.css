@@ -83,7 +83,7 @@ body {
 .container {
 	position: relative;
 }
-
+/* uniform styling for p tags */
 .container p {
 	font-family: "Montserrat";
 	color: #FFF;
@@ -92,7 +92,7 @@ body {
 	justify-content: center;
 	font-size: x-large;
 }
-
+/* uniform styling for titles */
 .container h1 {
 	font-family: "Montserrat";
 	text-align: center;
@@ -104,23 +104,74 @@ body {
 	letter-spacing: 10px;
 }
 
-.characterIntroduction {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
+/* pre intro enter button spacing */
 .beginChapter1 {
 	padding-top:15px;
 }
 
-.introductionImageChap1 img{
-	position: absolute;
-	z-index: 1;
+
+#purpleQuestionOne {
+	background-image: url(https://media.giphy.com/media/uk3X5SpVfYAPF2PHHb/source.gif);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 100px;
+	line-height: .75;
+	margin: 20px 0;
 }
 
-#dialogueBoxes1 {
+#purpleAnswerOne {
+	position: absolute;
+	bottom: 10%;
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #cbcbcb, 0 0 40px #8f8f8f, 0 0 50px #d7d7d7, 0 0 60px #414041, 0 0 70px #ffffff, 0 0 80px #ff4da6;
+	}
+  }
+
+
+#purpleQuestionTwo {
+	background-image: url(https://media.giphy.com/media/l2JhFr75rT5Gw3VvO/source.gif);
+	background-size: contain;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+#purpleAnswerTwo {
+	position: absolute;
+	bottom: 10%;
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* when he meets alien life */
+/* https://media.giphy.com/media/l0HlFvS7J0rhUFIqI/source.gif */
+
+
+
+
+
+
+
+
+
+/* FIXME: later use */
+/* #dialogueBoxes1 {
 	position: relative;
 	justify-content: center;
 	text-align: center;
@@ -135,9 +186,9 @@ body {
 	background-color: black;
 	-webkit-animation: dialogueBorderGrad 32s ease infinite;
     animation: dialogueBorderGrad 32s ease infinite;
-}
+} */
 
-@-webkit-keyframes dialogueBorderGrad {
+/* @-webkit-keyframes dialogueBorderGrad {
     0%{background-position:0% 52%}
     50%{background-position:100% 49%}
     100%{background-position:0% 52%}
@@ -146,39 +197,12 @@ body {
     0%{background-position:0% 52%}
     50%{background-position:100% 49%}
     100%{background-position:0% 52%}
-}
+} */
 
-#mainAstronaut {
-	visibility: hidden;
-	position: absolute;
-	left: -20%;
-	height: 25%;
-	transition: 1000ms left ease-out;
-	z-index: 30;
-	margin-top: 350px;
-}
+/* FIXME: Above dialogue box moving gradient */
 
-.selections {
-	width: 42px; 
-	height: 42px;
-	position: relative;
-	width: auto;
-	font-family: "Montserrat";
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	letter-spacing: 10px;
-	margin-top: 15px;
-	border: 0.1em solid rgba(255,255,255,.75);
-	border-radius: 0.12em;
-	text-decoration: none;
-}
 
-.selections:hover {
-	color:#000000;
-    background-color:#FFFFFF;
-    cursor: pointer;
-}
+
 
 
       
