@@ -8,6 +8,9 @@ $("#purpleQuestionOne").hide();
 $("#purpleAnswerOne").hide();
 $("#purpleQuestionTwo").hide();
 $("#purpleAnswerTwo").hide();
+$("#purpleImageOne").hide();
+$("#purpleImageTwo").hide();
+$("#purpleImageThree").hide();
 
 /* added game soundtrack to work on click */
 let chapter1Soundtrack = document.getElementById("purpleSong");
@@ -18,7 +21,7 @@ function playAudio() {
 }
 
 /* First question */
-$(".beginChapter1").on("click", function fadeInChapter1(){
+$(".beginChapter1").on("click", function fadeInPurple1(){
     playAudio();
     $(".chapter1Intro").fadeOut(1000);
     $(".chapter1PartOne").fadeIn(3000);
@@ -27,11 +30,22 @@ $(".beginChapter1").on("click", function fadeInChapter1(){
 })
 
 /* Second Question */
-$("#purpleAnswerOne").on("click", function fadeInChapter2(){
+$("#purpleAnswerOne").on("click", function fadeInPurple2(){
     $(".chapter1PartOne").fadeOut(3000);
     $("#purpleIntro").fadeOut(3000);
     $(".chapter1PartTwo").fadeIn(3000);
     $("#purpleQuestionTwo").delay(1000).fadeIn(7000);
     $("#purpleAnswerTwo").delay(7000).fadeIn(1000);
 })
+
+/* Third Question -- narrative (show three images and then a question) */
+$("#purpleAnswerTwo").on("click", function fadeInPurple3(){
+    $(".chapter1PartTwo").fadeOut(3000);
+    $("#purpleQuestionTwo").fadeOut(3000);
+    $(".purpleAnswerTwo").fadeOut(3000);
+    $("#purpleImageOne").delay(4000).fadeIn(3000);
+    $("#purpleImageTwo").delay(8000).fadeIn(3000);
+    $("#purpleImageThree").delay(12000).fadeIn(3000);
+})
+
 
