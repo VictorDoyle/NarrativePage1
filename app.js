@@ -11,6 +11,11 @@ $("#purpleAnswerTwo").hide();
 $("#purpleImageOne").hide();
 $("#purpleImageTwo").hide();
 $("#purpleImageThree").hide();
+$("#purpleImageFour").hide();
+$("#purpleImageFive").hide();
+$("#purpleImageSix").hide();
+$("#purpleImgChange").hide();
+$(".chapter1PartFour").hide();
 
 /* added game soundtrack to work on click */
 let chapter1Soundtrack = document.getElementById("purpleSong");
@@ -46,6 +51,21 @@ $("#purpleAnswerTwo").on("click", function fadeInPurple3(){
     $("#purpleImageOne").delay(4000).fadeIn(3000);
     $("#purpleImageTwo").delay(8000).fadeIn(3000);
     $("#purpleImageThree").delay(12000).fadeIn(3000);
+    $("#purpleImageOne").delay(4000).fadeOut(3000);
+    $("#purpleImageTwo").delay(6000).fadeOut(3000);
+    $("#purpleImageThree").delay(6000).fadeOut(3000);
+    $("#purpleImageFour").delay(20000).fadeIn(3000);
+    $("#purpleImageFive").delay(24000).fadeIn(3000);
+    $("#purpleImageSix").delay(26000).fadeIn(3000);
+    $("#purpleImageFour").delay(4000).fadeOut(3000);
+    $("#purpleImageFive").delay(6000).fadeOut(3000);
+    $("#purpleImageSix").delay(8000).fadeOut(3000);
+    $(".chapter1PartFour").delay(40000).fadeIn(3000);
+})
+
+$("#purpleImgChange").on("click", function fadeInPurple4() {
+    $(".chapter1PartThree").hide();
+    
 })
 
 
