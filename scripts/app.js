@@ -26,9 +26,8 @@ $("#purpleMidAFive").hide();
 $("#purpleMidASix").hide();
 $("#purpleNewBackgroundTwo").hide();
 
-
-let $chapter1Soundtrack = $("#purpleSong");
-$chapter1Soundtrack.loop = true;
+/* music play on click for chapter 1 */
+$("#purpleSong").loop = true;
 function playAudio() {
     $("#purpleSong").play();
 }
