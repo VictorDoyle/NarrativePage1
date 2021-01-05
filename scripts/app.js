@@ -27,7 +27,7 @@ $("#purpleMidASix").hide();
 $("#purpleNewBackgroundTwo").hide();
 
 /* music play on click for chapter 1 */
-let purpleSoundtrack = $("#purpleSong")
+let purpleSoundtrack = document.getElementById("purpleSong")
 purpleSoundtrack.loop = true;
 function playAudio() {
     purpleSoundtrack.play();
