@@ -16,6 +16,11 @@ $("#purpleImageFive").hide();
 $("#purpleImageSix").hide();
 $("#purpleImgChange").hide();
 $(".chapter1PartFour").hide();
+$("#purpleMidQOne").hide();
+$("#purpleMidAOne").hide();
+$("#purpleMidQTwo").hide();
+$("#purpleMidATwo").hide();
+
 
 /* added game soundtrack to work on click */
 let chapter1Soundtrack = document.getElementById("purpleSong");
@@ -61,11 +66,20 @@ $("#purpleAnswerTwo").on("click", function fadeInPurple3(){
     $("#purpleImageFive").delay(6000).fadeOut(3000);
     $("#purpleImageSix").delay(8000).fadeOut(3000);
     $(".chapter1PartFour").delay(40000).fadeIn(3000);
+    $("#purpleImgChange").delay(1000).fadeIn(3000);
 })
 
 $("#purpleImgChange").on("click", function fadeInPurple4() {
     $(".chapter1PartThree").hide();
-    
+    $(".chapter1Part4One").fadeOut(3000);
+    $("#purpleMidQOne").delay(1000).fadeIn(7000);
+    $("#purpleMidAOne").delay(5000).fadeIn(1000);
+})
+
+$("#purpleMidAOne").on("click", function fadeInPurple5 () {
+    $(".chapter1Part4Two").fadeOut(3000);
+    $("#purpleMidQTwo").delay(1000).fadeIn(7000);
+    $("#purpleMidATwo").delay(5000).fadeIn(1000);
 })
 
 
