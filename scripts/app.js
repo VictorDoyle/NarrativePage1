@@ -27,9 +27,10 @@ $("#purpleMidASix").hide();
 $("#purpleNewBackgroundTwo").hide();
 
 /* music play on click for chapter 1 */
-$("#purpleSong").loop = true;
+let purpleSoundtrack = $("#purpleSong")
+purpleSoundtrack.loop = true;
 function playAudio() {
-    $("#purpleSong").play();
+    purpleSoundtrack.play();
 }
 
 /* First question */
