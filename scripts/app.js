@@ -26,12 +26,11 @@ $("#purpleMidAFive").hide();
 $("#purpleMidASix").hide();
 $("#purpleNewBackgroundTwo").hide();
 
-/* added game soundtrack to work on click */
-let chapter1Soundtrack = document.getElementById("purpleSong");
-chapter1Soundtrack.loop = true;
 
+let $chapter1Soundtrack = $("#purpleSong");
+$chapter1Soundtrack.loop = true;
 function playAudio() {
-    chapter1Soundtrack.play();
+    $chapter1Soundtrack.play();
 }
 
 /* First question */
