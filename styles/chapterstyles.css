@@ -285,6 +285,13 @@ body {
 
 /* After image section - mid section begins */
 
+#purpleMidAOne, #purpleMidATwo, #purpleMidAThree, #purpleMidAFour,  #purpleMidAFive,  #purpleMidASix {
+	position: absolute;
+	bottom: 10%;
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+
 #purpleMidQOne {
 	background-image: url(https://media.giphy.com/media/8lVPeJ7onRUCNE60Bg/source.gif);
 	background-size: cover;
@@ -295,13 +302,6 @@ body {
 	font-size: 100px;
 	line-height: .75;
 	margin: 20px 0;
-}
-
-#purpleMidAOne {
-	position: absolute;
-	bottom: 10%;
-	animation: glow 1s ease-in-out infinite alternate;
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
 }
 
 #purpleMidQTwo {
@@ -316,37 +316,35 @@ body {
 	margin: 20px 0;
 }
 
-#purpleMidATwo {
-	position: absolute;
-	bottom: 10%;
-	animation: glow 1s ease-in-out infinite alternate;
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
-}
 
 
-
-
-/* red scanner effect in full background after meeting alien */
-
-/* .css-selector {
-    background: linear-gradient(89deg, #000000, #000000, #bf1010, #000000);
+/* scanner type background for meeting the extraterrestrial life form */
+#purpleNewBackground {
+	background: linear-gradient(89deg, #000000, #000000, #b60037, #000000);
     background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
+    -webkit-animation: ScannerAnim 25s ease infinite;
+    animation: ScannerAnim 25s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes ScannerAnim {
     0%{background-position:0% 51%}
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
 }
-@keyframes AnimationName {
+@keyframes ScannerAnim {
     0%{background-position:0% 51%}
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
-} */
+}
 
+#purpleNewBackgroundTwo {
+	background: linear-gradient(89deg, #000000, #000000, #9f00b0, #000000);
+    background-size: 800% 800%;
+
+    -webkit-animation: ScannerAnim 31s ease infinite;
+    animation: ScannerAnim 31s ease infinite;
+}
 
 
 

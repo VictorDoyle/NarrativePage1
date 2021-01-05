@@ -20,7 +20,11 @@ $("#purpleMidQOne").hide();
 $("#purpleMidAOne").hide();
 $("#purpleMidQTwo").hide();
 $("#purpleMidATwo").hide();
-
+$("#purpleMidAThree").hide();
+$("#purpleMidAFour").hide();
+$("#purpleMidAFive").hide();
+$("#purpleMidASix").hide();
+$("#purpleNewBackgroundTwo").hide();
 
 /* added game soundtrack to work on click */
 let chapter1Soundtrack = document.getElementById("purpleSong");
@@ -80,6 +84,33 @@ $("#purpleMidAOne").on("click", function fadeInPurple5 () {
     $(".chapter1Part4Two").fadeOut(3000);
     $("#purpleMidQTwo").delay(1000).fadeIn(7000);
     $("#purpleMidATwo").delay(5000).fadeIn(1000);
+})
+
+$("#purpleMidATwo").on("click", function fadeInPurple6(){
+    $(".chapter1Part4Three").fadeOut(3000);
+    $("#purpleNewBackground").delay(1000).fadeIn(3000);
+    $(".chapter1Part4Four").delay(1000).fadeIn(7000);
+    $("#purpleMidAThree").delay(7000).fadeIn(5000);
+})
+
+$("#purpleMidAThree").on("click", function fadeInPurple7(){
+    $(".chapter1Part4Four").fadeOut(3000);
+    $(".chapter1Part4Five").delay(1000).fadeIn(7000);
+    $("#purpleMidAFour").delay(7000).fadeIn(5000);
+})
+
+$("#purpleMidAFour").on("click", function fadeInPurple8(){
+    $(".chapter1Part4Five").fadeOut(3000);
+    $("#purpleNewBackground").fadeOut(3000);
+    $("#purpleNewBackgroundTwo").delay(1000).fadeIn(3000);
+    $(".chapter1Part4Six").delay(1000).fadeIn(7000);
+    $("#purpleMidAFive").delay(7000).fadeIn(5000);
+})
+
+$("#purpleMidAFive").on("click", function fadeInPurple8() {
+    $(".chapter1Part4Six").fadeOut(3000);
+    $(".chapter1Part4Seven").delay(1000).fadeIn(7000);
+    $("#purpleMidASix").delay(7000).fadeIn(5000);
 })
 
 
