@@ -30,7 +30,7 @@ $("#purpleNewBackgroundTwo").hide();
 let $chapter1Soundtrack = $("#purpleSong");
 $chapter1Soundtrack.loop = true;
 function playAudio() {
-    $chapter1Soundtrack.play();
+    $("#purpleSong").play();
 }
 
 /* First question */
