@@ -323,8 +323,8 @@ body {
 	background: linear-gradient(89deg, #000000, #000000, #b60037, #000000);
     background-size: 800% 800%;
 
-    -webkit-animation: ScannerAnim 25s ease infinite;
-    animation: ScannerAnim 25s ease infinite;
+    -webkit-animation: ScannerAnim 15s ease infinite;
+    animation: ScannerAnim 15s ease infinite;
 }
 
 @-webkit-keyframes ScannerAnim {
@@ -342,8 +342,8 @@ body {
 	background: linear-gradient(89deg, #000000, #000000, #9f00b0, #000000);
     background-size: 800% 800%;
 
-    -webkit-animation: ScannerAnim 31s ease infinite;
-    animation: ScannerAnim 31s ease infinite;
+    -webkit-animation: ScannerAnim 15s ease infinite;
+    animation: ScannerAnim 15s ease infinite;
 }
 
 

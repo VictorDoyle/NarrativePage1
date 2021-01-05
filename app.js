@@ -58,11 +58,11 @@ $("#purpleAnswerTwo").on("click", function fadeInPurple3(){
     $("#purpleQuestionTwo").fadeOut(3000);
     $(".purpleAnswerTwo").fadeOut(3000);
     $("#purpleImageOne").delay(4000).fadeIn(3000);
-    $("#purpleImageTwo").delay(8000).fadeIn(3000);
-    $("#purpleImageThree").delay(12000).fadeIn(3000);
+    $("#purpleImageTwo").delay(6000).fadeIn(3000);
+    $("#purpleImageThree").delay(8000).fadeIn(3000);
     $("#purpleImageOne").delay(4000).fadeOut(3000);
     $("#purpleImageTwo").delay(6000).fadeOut(3000);
-    $("#purpleImageThree").delay(6000).fadeOut(3000);
+    $("#purpleImageThree").delay(8000).fadeOut(3000);
     $("#purpleImageFour").delay(20000).fadeIn(3000);
     $("#purpleImageFive").delay(24000).fadeIn(3000);
     $("#purpleImageSix").delay(26000).fadeIn(3000);
