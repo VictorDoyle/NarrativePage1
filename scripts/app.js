@@ -25,6 +25,7 @@ $("#purpleMidAFour").hide();
 $("#purpleMidAFive").hide();
 $("#purpleMidASix").hide();
 $("#purpleNewBackgroundTwo").hide();
+$(".chapter1PartFive").hide();
 
 /* music play on click for chapter 1 */
 let purpleSoundtrack = document.getElementById("purpleSong")
@@ -106,10 +107,19 @@ $("#purpleMidAFour").on("click", function fadeInPurple8(){
     $("#purpleMidAFive").delay(7000).fadeIn(5000);
 })
 
-$("#purpleMidAFive").on("click", function fadeInPurple8() {
+$("#purpleMidAFive").on("click", function fadeInPurple9() {
     $(".chapter1Part4Six").fadeOut(3000);
     $(".chapter1Part4Seven").delay(1000).fadeIn(7000);
     $("#purpleMidASix").delay(7000).fadeIn(5000);
+})
+
+$("#purpleMidASix").on("click", function fadeInPurple10() {
+    $(".chapter1Part4Seven").fadeOut(3000);
+    $(".chapter1PartFive").delay(1000).fadeIn(7000);
+    $("#skeletonFront").delay(3000).fadeIn(3000);
+    $("#musclesFront").delay(7000).fadeIn(3000);
+    $("#skeletonBack").delay(10000).fadeIn(3000);
+    $("#musclesBack").delay(13000).fadeIn(3000);
 })
 
 

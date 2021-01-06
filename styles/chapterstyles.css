@@ -48,7 +48,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 120px;
-	line-height: .75;
+	line-height: .85;
 	margin: 10px 0;
 }
 
@@ -60,7 +60,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 120px;
-	line-height: .75;
+	line-height: .85;
 	margin: 10px 0;
 }
 
@@ -72,7 +72,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 120px;
-	line-height: .75;
+	line-height: .85;
 	margin: 10px 0;
 }
 
@@ -118,7 +118,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 100px;
-	line-height: .75;
+	line-height: .85;
 	margin: 20px 0;
 }
 
@@ -148,7 +148,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 120px;
-	line-height: .75;
+	line-height: .85;
 	margin: 10px 0;
 }
 
@@ -170,10 +170,10 @@ body {
 
 #purpleImgOneText {
 	position: absolute;
-	left: 35px;
+	left: 40px;
 	top:105px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 
@@ -197,7 +197,7 @@ body {
 	right: 0;
 	top:205px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 #purpleImageThree img {
@@ -209,10 +209,10 @@ body {
 
 #purpleImgThreeText {
 	position: absolute;
-	right: 65px;
-	top: 420px;
+	right: 115px;
+	top: 418px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 
@@ -230,7 +230,7 @@ body {
 	right: 50px;
 	top:105px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 
@@ -254,7 +254,7 @@ body {
 	right: 0;
 	top:205px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 #purpleImageSix img {
@@ -266,10 +266,10 @@ body {
 
 #purpleImgSixText {
 	position: absolute;
-	left: 25px;
-	top: 420px;
+	left: 45px;
+	top: 418px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 #purpleImgChange {
@@ -300,7 +300,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 100px;
-	line-height: .75;
+	line-height: .85;
 	margin: 20px 0;
 }
 
@@ -312,7 +312,7 @@ body {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 100px;
-	line-height: .75;
+	line-height: .85;
 	margin: 20px 0;
 }
 
@@ -346,8 +346,33 @@ body {
     animation: ScannerAnim 15s ease infinite;
 }
 
+/* skeleton images load sequence */
 
+#skeletonFront img {
+	position: absolute;
+	top:25%;
+	width: 400px;
+}
 
+#musclesFront img {
+	position: absolute;
+	top:25%;
+	width: 400px;
+}
+
+#skeletonBack img {
+	position: absolute;
+	right: 0%;
+	top:25%;
+	width: 400px;
+}
+
+#musclesBack img {
+	position: absolute;
+	right: 0%;
+	top:25%;
+	width: 400px;
+}
 
 
 
