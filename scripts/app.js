@@ -26,6 +26,10 @@ $("#purpleMidAFive").hide();
 $("#purpleMidASix").hide();
 $("#purpleNewBackgroundTwo").hide();
 $(".chapter1PartFive").hide();
+$("#skeletonFront").hide();
+$("#musclesFront").hide();
+$("#skeletonBack").hide();
+$("#musclesBack").hide();
 
 /* music play on click for chapter 1 */
 let purpleSoundtrack = document.getElementById("purpleSong")
