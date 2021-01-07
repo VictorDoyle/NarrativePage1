@@ -2,6 +2,8 @@
 
 $(".acceptWarning").on("click", function ShowHome(){
     $(".seizureWarning").hide();
+    /* TODO: Add button timer of 15min so the Warning is not always shown everytime user returns to homepage
+    OR, store in cookie session */
 })
 
 
@@ -37,6 +39,12 @@ $("#skeletonFront").hide();
 $("#musclesFront").hide();
 $("#skeletonBack").hide();
 $("#musclesBack").hide();
+$("#bodyExplanation1").hide();
+$("#bodyExplanation2").hide();
+$("#bodyExplanation3").hide();
+$("#bodyExplanation4").hide();
+$("#bodyExplanation5").hide();
+$("#bodyExplanation6").hide();
 
 /* music play on click for chapter 1 */
 let purpleSoundtrack = document.getElementById("purpleSong")
@@ -131,6 +139,18 @@ $("#purpleMidASix").on("click", function fadeInPurple10() {
     $("#musclesFront").delay(7000).fadeIn(3000);
     $("#skeletonBack").delay(10000).fadeIn(3000);
     $("#musclesBack").delay(13000).fadeIn(3000);
+    $("#bodyExplanation1").fadeIn(3000);
+    $("#bodyExplanation1").delay(5000).fadeOut(3000);
+    $("#bodyExplanation2").delay(7000).fadeIn(3000);
+    $("#bodyExplanation2").delay(5000).fadeOut(3000);
+    $("#bodyExplanation3").delay(10000).fadeIn(3000);
+    $("#bodyExplanation3").delay(5000).fadeOut(3000);
+    $("#bodyExplanation4").delay(12000).fadeIn(3000);
+    $("#bodyExplanation4").delay(5000).fadeOut(3000);
+    $("#bodyExplanation5").delay(15000).fadeIn(3000);
+    $("#bodyExplanation5").delay(5000).fadeOut(3000);
+    $("#bodyExplanation6").delay(18000).fadeIn(3000);
+    $("#bodyExplanation6").delay(5000).fadeOut(3000);
 })
 
 
