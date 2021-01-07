@@ -154,12 +154,12 @@ $("#purpleMidASix").on("click", function fadeInPurple10() {
     $("#bodyExplanation4").delay(5000).fadeOut(3000);
     $("#alienFront").delay(18000).fadeIn(4000);
     $("#alienBack").delay(15000).fadeIn(4000);
-    $("#bodyExplanation5").delay(22000).fadeIn(3000);
+    $("#bodyExplanation5").delay(24000).fadeIn(3000);
     $("#bodyExplanation5").delay(6000).fadeOut(3000);
-    $("#bodyExplanation6").delay(28000).fadeIn(3000);
+    $("#bodyExplanation6").delay(30000).fadeIn(3000);
     $("#bodyExplanation6").delay(5000).fadeOut(5000);
-    $("#purpleEnding1").delay(36000).fadeIn(3000);
+    $("#purpleEnding1").delay(38000).fadeIn(3000);
     $("#purpleEnding1").delay(5000).fadeOut(5000);
-    $("#purpleEnding2").delay(42000).fadeIn(3000);
+    $("#purpleEnding2").delay(44000).fadeIn(3000);
 })
 
