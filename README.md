@@ -16,6 +16,6 @@ The overall experience is to accompany the sounds of musical tones to minimal vi
 ## Resources
 1. Space-22 Soundtrack. Chapter 1 - Space-22's 'Purple'.
 2. Skeleton images taken from https://cdn.britannica.com/07/192107-050-CE043374/anatomy-charts-human-body-muscle-systems-skeletal.jpg
-3. 
+3. Gifs used as transparent background clips from Erica Anderson // find her amazing work at (https://ericaofanderson.com/).
 
 

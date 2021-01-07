@@ -374,6 +374,26 @@ body {
 	width: 400px;
 }
 
+#alienFront img {
+	background-image: url(https://media.giphy.com/media/UqSD9d59OeAu9lxPqQ/source.gif);
+	background-size: contain;
+	color: transparent;
+	position: absolute;
+	top:25%;
+	width: 400px;
+	
+}
+
+#alienBack img {
+	background-image: url(https://media.giphy.com/media/n2H9YrZPgPm0dZxJZx/source.gif);
+	background-size: contain;
+	color: transparent;
+	position: absolute;
+	right: 0%;
+	top:25%;
+	width: 400px;
+}
+
 
 
 
