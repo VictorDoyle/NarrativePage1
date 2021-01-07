@@ -4,8 +4,47 @@
 
 body {
     background-color: black;
+    z-index: 200;
+    overflow: hidden;
 }
 
+.seizureWarning {
+    background-color: black;
+    z-index: 300;
+    visibility: visible;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+/* button styling taken from https://fdossena.com/?p=html5cool/buttons/i.frag */
+.acceptWarning {
+    position: absolute;
+    bottom: 10%;
+    left:30%;
+    justify-content: center;
+    width: 40%;
+	text-align: center;
+    align-self: center;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:black;
+    font-family: "Montserrat";
+    text-align:center;
+    transition: all 0.2s;
+    
+}
+.acceptWarning:hover {
+    color:white;
+    background-color: grey;
+    cursor: pointer;
+}
+   
 .mainContent {
     font-family: "Montserrat";
     text-align: center;
@@ -17,6 +56,25 @@ body {
     margin: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.warning, .warningH1 {
+    font-family: "Montserrat";
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: .95;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+
+.warningH1 {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
 }
 
 .mainIntroduction {

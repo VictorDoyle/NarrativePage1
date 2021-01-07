@@ -1,3 +1,10 @@
+/* SECTION: Seizure warning on homepage */
+
+$(".acceptWarning").on("click", function ShowHome(){
+    $(".seizureWarning").hide();
+})
+
+
 /* SECTION: Chapter 1 */
 // adding "Purple" soundtrack
 
